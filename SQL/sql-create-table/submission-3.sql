@@ -1,0 +1,12 @@
+select table_name, column_name, data_type from information_schema.columns where table_name = 'videos';
+
+create table videos( id int, name TEXT, created_at DATE, published boolean);
+
+
+
+
+
+-- Do not modify below this line --
+SELECT table_name, column_name, data_type
+FROM information_schema.columns
+WHERE table_name = 'videos';
